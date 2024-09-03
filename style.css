@@ -1,0 +1,17 @@
+body{
+    font-size: 14px;
+}
+.abc{
+    background: rgb(8, 59, 120);
+}
+.navbar-expand-lg  .navbar-nav .nav-link
+{
+ color: #fff;
+}
+.ripple{
+    animation: ripple 3s infinite; 
+}
+@keyframes ripple{
+    0%{background:red;color: #fff;}
+    100%{background: transparent; color: blue;}
+}
